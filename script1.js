@@ -6,7 +6,7 @@ function addMessage(sender, text) {
     const messageDiv = document.createElement('div')
     messageDiv.classList.add('chat-message', sender)
     const icon = document.createElement('img')
-    icon.src = sender === 'bot' ? 'assets/icons/chat-bot.png' : 'assets/icons/enviar.png'
+    icon.src = sender === 'bot' ? 'assets/icons/chat-bot.png' : 'assets/icons/enviar2g.png'
     icon.alt = sender
 
     const messageContent = document.createElement('div')
